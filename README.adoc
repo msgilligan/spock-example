@@ -15,28 +15,28 @@ Type:
 
     ant clean test
 
-Downloaded files will be stored in the local Maven repository (typically `_user_home_/.m2/repository`).
+Downloaded files will be stored in the local Maven repository (typically `__user_home__/.m2/repository`).
 
 == Building with Gradle
 Type:
 
     ./gradlew clean test
 
-Downloaded files (including the Gradle distribution itself) will be stored in the Gradle user home directory (typically *user_home*`/.gradle`).
+Downloaded files (including the Gradle distribution itself) will be stored in the Gradle user home directory (typically `__user_home__/.gradle`).
 
 == Building with Maven
 Type:
 
     mvn clean test
 
-Downloaded files will be stored in the local Maven repository (typically *user_home*`/.m2/repository`).
+Downloaded files will be stored in the local Maven repository (typically `__user_home__/.m2/repository`).
 
 == Creating an Eclipse project
 Type:
 
     ./gradlew cleanEclipse eclipse
 
-Make sure you have a recent version of the Groovy Eclipse plugin installed. After importing the generated project into a workspace, go to Preferences->Java->Build Path->Classpath Variables and add a variable named `GRADLE_CACHE` with value *user_home*`/.gradle/cache`. (If you have an environment variable `GRADLE_USER_HOME` set, the correct value is *GRADLE_USER_HOME*`/cache`.) You should now be able to build the project, and to run the specs like you would run a JUnit test. See http://wiki.spockframework.org/GettingStarted#Eclipse for more information on how to get started with Spock and Eclipse.
+Make sure you have a recent version of the Groovy Eclipse plugin installed. After importing the generated project into a workspace, go to Preferences->Java->Build Path->Classpath Variables and add a variable named `GRADLE_CACHE` with value `__user_home__/.gradle/cache`. (If you have an environment variable `GRADLE_USER_HOME` set, the correct value is `__GRADLE_USER_HOME__/cache`.) You should now be able to build the project, and to run the specs like you would run a JUnit test. See http://wiki.spockframework.org/GettingStarted#Eclipse for more information on how to get started with Spock and Eclipse.
 
 == Creating an IDEA project
 Type:
