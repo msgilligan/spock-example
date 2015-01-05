@@ -17,7 +17,7 @@ Type:
 
     ant clean test
 
-Downloaded files will be stored in the local Maven repository (typically *user_home*`/.m2/repository`).
+Downloaded files will be stored in the local Maven repository (typically <code><var>user_home</var>/.m2/repository</code>).
 
 Building with Gradle
 --------------------
